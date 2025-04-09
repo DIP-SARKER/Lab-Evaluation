@@ -155,9 +155,10 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Expanded(
                       child: Container(
-                        padding: EdgeInsets.all(16),
+                        padding: EdgeInsets.symmetric(vertical: 16),
                         decoration: BoxDecoration(
                           color: Colors.white24,
+                          border: Border.all(color: Colors.white, width: 2.0),
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Column(
@@ -177,10 +178,11 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(width: 10),
                     Container(
                       width: 100,
-                      padding: EdgeInsets.all(16),
+                      padding: EdgeInsets.symmetric(vertical: 13),
                       decoration: BoxDecoration(
                         color: Colors.white24,
                         borderRadius: BorderRadius.circular(10),
+                        border: Border.all(color: Colors.white, width: 2.0),
                       ),
                       child: Column(
                         children: [
