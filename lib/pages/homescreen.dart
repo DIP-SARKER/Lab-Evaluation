@@ -81,23 +81,47 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               leading: Icon(Icons.home),
               title: Text('Home'),
-              onTap: () {
-                // Handle Home tap
-              },
+              onTap: () {},
             ),
             ListTile(
               leading: Icon(Icons.settings),
               title: Text('Settings'),
-              onTap: () {
-                // Handle Settings tap
-              },
+              onTap: () {},
+            ),
+            ListTile(
+              leading: Icon(Icons.people),
+              title: Text('Profile'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: Icon(Icons.book),
+              title: Text('Notice'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: Icon(Icons.local_taxi),
+              title: Text('Bus Service'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: Icon(Icons.help_center),
+              title: Text('Help'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text('About'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: Icon(Icons.help),
+              title: Text('FAQ'),
+              onTap: () {},
             ),
             ListTile(
               leading: Icon(Icons.logout),
               title: Text('Logout'),
-              onTap: () {
-                // Handle Logout tap
-              },
+              onTap: () {},
             ),
           ],
         ),
@@ -106,7 +130,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           Container(
             color: Color.fromARGB(255, 115, 68, 255),
-            padding: EdgeInsets.only(top: 10, right: 20, left: 20),
+            padding: EdgeInsets.only(top: 10, right: 20, left: 20, bottom: 10),
             child: Column(
               children: [
                 Row(
@@ -163,7 +187,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         child: Column(
                           children: [
-                            Text("****",
+                            Text("1500",
                                 style: TextStyle(
                                     fontSize: 24,
                                     color: Colors.white,
@@ -210,11 +234,11 @@ class _HomePageState extends State<HomePage> {
               children: [
                 _buildActivityTile(
                   title: "1:31pm on Saturday 1st February 2025",
-                  subtitle: "Last Login (24069RA21C)",
+                  subtitle: "Last Login (bjaw4384iwqopur8q)",
                 ),
                 _buildActivityTile(
                   title: "6:23pm on Friday 27th December 2024",
-                  subtitle: "Last Logout (24069RA21C)",
+                  subtitle: "Last Logout (bhuwq4ryh8)",
                 ),
               ],
             ),
